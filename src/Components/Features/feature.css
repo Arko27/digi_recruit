@@ -1,0 +1,35 @@
+.fcap{
+    background-color: rgb(162, 162, 162);
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 5px;
+    margin-top: -25px;
+    margin-bottom: 40px;
+    border-radius: 25px;
+    padding: 20px;
+}
+svg{
+    height: 5rem;
+    width: 5rem;
+    color: rgb(147, 161, 174);
+}
+.l{
+    padding: 60px;
+    background-color: antiquewhite;
+}
+
+.heading{
+    padding-top: 20px;
+    font-family: 'Georgia', serif;
+    font-size: 25px;
+}
+
+.headtext{
+    padding-right: 20px;
+    padding-left: 20px;
+    font-family: 'Cambria', 'Cochin', 'Georgia', 'Times', 'Times New Roman', serif;
+    font-size: 17px;
+}
+.c{
+    border-radius: 20px;
+}

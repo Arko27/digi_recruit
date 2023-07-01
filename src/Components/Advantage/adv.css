@@ -1,0 +1,12 @@
+.adv{
+    padding: 20px;
+    font-family: 'Georgia', serif;
+    font-size: 20px;
+    background-color: antiquewhite;
+    color: rgb(172, 168, 64);
+}
+
+.tick svg{
+    height: 3rem;
+    width: 3rem;
+}

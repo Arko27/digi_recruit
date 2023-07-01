@@ -1,0 +1,10 @@
+svg{
+    height: 5rem;
+    width: 5rem;
+    color: rgb(147, 161, 174);
+}
+
+#small{
+    padding-top: 25px;
+    font-size: 23px;
+}
