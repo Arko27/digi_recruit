@@ -1,0 +1,18 @@
+.ft{
+    margin-top: 10px;
+    font-size: 20px;
+    padding: 8px;
+    color: rgb(241, 255, 255);
+    border-radius: 10px;
+}
+
+.fcap{
+    padding-bottom: 1px;
+}
+
+.ftf{
+    margin-top: -20px;
+    border-radius: 10px;
+    font-size: 20px;
+    color: rgb(241, 255, 255);
+}

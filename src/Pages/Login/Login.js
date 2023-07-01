@@ -47,12 +47,12 @@ const arr = [
   },
 ];
 
-export {arr}
+export { arr };
 
 function Login() {
   return (
     <div>
-      <Navbar a = {arr}/>
+      <Navbar a={arr} />
       <div className="container">
         <div className="row gy-3 my-3">
           <div className="container a d-flex justify-content-center text-center">
@@ -68,9 +68,14 @@ function Login() {
               <form className="row g-3 p-3" autocomplete="off">
                 <div className="col-md-12">
                   <label for="inputEmail4" className="form-label">
-                    Email / Username / Mobile No.
+                    Email
                   </label>
-                  <input type="email" className="form-control" id="inputEmail4" />
+                  <input
+                    type="email"
+                    className="form-control"
+                    id="inputEmail4"
+                    placeholder="Type in Email Address"
+                  />
                 </div>
                 <div className="col-md-12">
                   <label for="inputPassword4" className="form-label">
@@ -80,6 +85,7 @@ function Login() {
                     type="password"
                     className="form-control"
                     id="inputPassword4"
+                    placeholder="Type in Password"
                   />
                 </div>
 
@@ -93,10 +99,8 @@ function Login() {
                   </button>
                 </div>
                 <div>
-                    Don't have an account yet?&nbsp;&nbsp;
-                    <Link to="/signup">
-                      Sign Up
-                  </Link>
+                  Don't have an account yet?&nbsp;&nbsp;
+                  <Link to="/signup">Sign Up</Link>
                 </div>
               </form>
             </div>

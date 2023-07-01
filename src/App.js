@@ -9,6 +9,7 @@ import Survey from "./Components/Flagship_Survey/Survey";
 import Emp from "./Components/Employee_Exp/Emp";
 import Adv from "./Components/Advantage/Adv";
 import Faq from "./Components/Faq/Faq";
+import Footer from "./Components/Footer/Footer";
 
 const arr = [
   {
@@ -73,6 +74,7 @@ function App() {
       <Emp />
       <Adv />
       <Faq />
+      <Footer/>
     </Fragment>
   );
 }

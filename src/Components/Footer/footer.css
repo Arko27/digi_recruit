@@ -1,0 +1,94 @@
+.card.f{
+    border: none;
+    background-color: black;
+}
+
+.foot{
+    background-color: black;
+}
+
+.card.f{
+    color: white;
+}
+
+.card-text.f,
+.card-text.f a{
+    letter-spacing: 0px;
+    text-decoration: none;
+    color: white;
+}
+
+.card-text.f a:hover{
+  letter-spacing: 2px;
+  transition: 0.5s;
+}
+
+#foot-img{
+    width: 15rem;
+}
+
+.card-title.f{
+  margin-bottom: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+  font-style: italic;
+}
+
+.card-text.f{
+    margin-bottom: -25px;
+}
+
+.card-text.fs a{
+    margin: 9px 1.3% 9px 0px;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    border: 1px solid #ffffff;
+    border-radius: 35px;
+    transition: 0.3s;
+}
+
+#wp:hover {
+    color: #fff;
+    background-color: #25D366;
+    border-color: #25D366;
+  }
+  
+  #fb:hover {
+    color: #fff;
+    background-color: #4267b2;
+    border-color: #4267b2;
+  }
+  
+  #yt:hover {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+  }
+  
+  #li:hover {
+    color: #fff;
+    background-color: #0072b1;
+    border-color: #0072b1;
+  }
+  
+  #insta:hover {
+    color: #fff;
+    background-image: linear-gradient(to bottom left,  #833AB4, #E1306C,#F56040, #FFDC80);
+    border-color: #E1306C;
+  }
+  
+  #dis:hover {
+    color: #fff;
+    background-color: #7289DA;
+    border-color: #7289DA;
+  }
+
+  @media only screen and (max-width: 900px){
+    .card-text.fs a{
+      margin-right: 15px;
+  }
+}
